@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Page</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="css/mynewstyles.css">
+</head>
+<body>
+    <!-- Top-left anchor link -->
+<div class="top-left-link">
+    <p>Click <a href="#anchor-section">here</a> to see Tableau.</p>
+    
+</div>
+<!-- Top-right link to go back to the home page -->
+<div class="top-right-link">
+    <a href="index.html">Home</a>
+</div>
+
+
+    <!-- Page Heading -->
+    <h1>AI and Real Estate</h1>
+
+    <!-- Ordered List with Embedded Unordered List -->
+    <!-- <h2>Ordered and Unordered List</h2> -->
+    <div class="text-box">
+        <ol>
+            <li>AI influences efficiency for real estate marketers 
+
+                <ul>
+                    <li>AI enhances the ability to complete tasks more quickly.</li>
+                    <li>AI enhances processes through automation. 
+                    </li>
+                    <li>AI enhances real estate analysis.</li>
+                </ul>
+            </li>
+            <li>AI influences customer satisfaction
+                <ul>
+                    <li>AI enhances customer satisfaction through personalized, virtual tours.</li>
+                    <li>AI enhances satisfaction through reduced customer effort.</li>
+                    <li>AI enhances customer satisfaction through meeting client needs quicker.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+  <!-- Custom Image and Embedded YouTube Video Side by Side -->
+<div class="media-container">
+    <!-- Custom Image -->
+    <div class="media-item">
+        <img src="assets/img/aiphoto.jpeg" alt="Sample Image" class="custom-image">
+    </div>
+
+    <!-- Embedded YouTube Video -->
+    <div class="media-item">
+        <iframe width="100%" height="315" 
+            src="https://www.youtube.com/embed/6NEn859PwT4" 
+            title="Embedded YouTube Video" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</div>
+
+
+
+    <!-- On-Page Anchor Link -->
+    <!-- <p>Click <a href="#anchor-section">here</a> to see tableau.</p> -->
+
+    <!-- Anchor Target Section -->
+    <div id="anchor-section">
+        <h2>How People Feel About AI</h2>
+    </div>
+    <!-- Embedded Tableau Visualization -->
+    <div class="tableau-container">
+        <div class='tableauPlaceholder' id='viz1734046493228' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='PUBLIC SENTIMENT TOWARDS ARTIFICIAL  INTELLIGENCE' 
+                        src='https://public.tableau.com/static/images/PU/PUBLICSENTIMENTTOWARDSARTIFICIALINTELLIGENCE/PUBLICSENTIMENTTOWARDSARTIFICIALINTELLIGENCE/1_rss.png' 
+                        style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='PUBLICSENTIMENTTOWARDSARTIFICIALINTELLIGENCE&#47;PUBLICSENTIMENTTOWARDSARTIFICIALINTELLIGENCE' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/PU/PUBLICSENTIMENTTOWARDSARTIFICIALINTELLIGENCE/PUBLICSENTIMENTTOWARDSARTIFICIALINTELLIGENCE/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1734046493228');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) { 
+                vizElement.style.width = '1300px'; 
+                vizElement.style.height = '927px'; 
+            } else if (divElement.offsetWidth > 500) { 
+                vizElement.style.width = '1400px'; 
+                vizElement.style.height = '927px'; 
+            } else { 
+                vizElement.style.width = '100%'; 
+                vizElement.style.height = '827px'; 
+            }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+    <!-- Link to Snake Game -->
+<div class="link-to-snakegame">
+    <p>Want to play a game? Click here: <a href="snakegame.html">Play Snake Game</a></p>
+</div>
+
+
+</body>
+</html>

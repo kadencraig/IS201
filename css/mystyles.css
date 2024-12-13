@@ -1,0 +1,155 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Navigation Bar Styling */
+.navbar-custom {
+    background-color: #004080;
+    margin-top: 0px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+/* Container */
+.container {
+    padding: 20px;
+    margin-top: 0px;
+}
+
+/* Headings */
+.site-heading h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+display-4 {
+    font-size: 2rem;
+    color: #004080;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+/* Bold and No Underline for Specific Links */
+.no-underline-bold {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333; /* Optional: darker gray */
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+Footer
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.position{
+    font-style: italic;
+    font-weight: lighter;
+}
+/* Top-Right Positioned Image */
+.top-right-image {
+    position: absolute; /* Positions the image relative to the page */
+    top: 60px;          /* Distance from the top of the page */
+    right: 0px;        /* Distance from the right of the page */
+    width: 250px;       /* Adjust the image width */
+    height: auto;       /* Maintain aspect ratio */
+    border-radius: 10px; /*Optional: Adds rounded corners
+    --bs-btn-box-shadow 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
+    border: 2px solid #ddd; /* Optional: Light border around the image */
+}
+/* Link to the Left of the Header */
+.resume-link {
+    display: block; /* Makes it align as a block-level element */
+    margin-bottom: 10px; /* Adds spacing below the link */
+    font-size: 18px; /* Adjust font size */
+    color: #f5f6f7; /* Professional blue color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes the text bold */
+}
+
+.resume-link:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #002040; /* Slightly darker blue */
+}
+/* Center and Style the Title */
+/* Center Title Across the Whole Page */
+/* Fully Centered Title with White Font */
+.maintitle {
+    text-align: center; /* Center the text horizontally */
+    color: #ffffff; /* White font color */
+    font-family: 'Lora', serif; /* Keep theme font */
+    font-size: 4rem; /* Large font size */
+    font-weight: bold; /* Bold text */
+    margin: 0; /* Remove default margin */
+    position: absolute; /* Absolute positioning for full-page centering */
+    top: 50%; /* Move to center vertically */
+    left: 50%; /* Move to center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for exact center alignment */
+    white-space: nowrap; /* Keep the title on a single line */
+    width: 100%; /* Span full width */
+}
+.taskeff {
+    color: #0a0000; /* White font color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+    font-size: 2.0rem; /* Adjust the font size */
+}
+
+.taskeff:hover {
+    color: #FFD700; /* Gold color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+/* Styling for the Post Title */
+.post-title {
+    color: #0a0000; /* Dark color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.0rem; /* Adjust the font size */
+    
+}
+

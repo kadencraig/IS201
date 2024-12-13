@@ -1,0 +1,156 @@
+/* General Page Styles */
+body {
+    background-color: #f9f9f9; /* Light gray background */
+    font-family: Arial, sans-serif; /* Default font family */
+    color: #333; /* Default font color */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading Styling */
+h1, h2 {
+    color: #004080; /* Dark blue font color */
+    font-family: 'Georgia', serif; /* Serif font for headings */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Text Box Styling */
+.text-box {
+    border: 2px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    margin: 20px auto; /* Space around the box */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 80%;
+    font-size: 16px;
+}
+
+/* Media Container for Side-by-Side Layout */
+.media-container {
+    display: flex; /* Flexbox for side-by-side layout */
+    justify-content: center; /* Center align items */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Spacing between items */
+    margin: 20px auto; /* Space around the container */
+    width: 90%;
+}
+
+.media-item {
+    flex: 1; /* Equal width for image and video */
+    text-align: center;
+}
+
+/* Image Styling - Make Custom Image Bigger */
+.custom-image {
+    width: 100%; /* Image takes up full width of its container */
+    max-width: 800px; /* Increase maximum width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    border: 2px solid #ddd; /* Border styling */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin: 0 auto; /* Center the image */
+    display: block; /* Block display for proper alignment */
+}
+
+
+/* Embedded YouTube Video */
+.media-item iframe {
+    border-radius: 10px; /* Rounded corners for video */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Anchor Section Styling */
+#anchor-section {
+    padding: 20px;
+    background-color: #e9ecef; /* Light gray background */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styling */
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Top-left link styling */
+.top-left-link {
+    position: absolute; /* Positions it relative to the body */
+    top: 10px; /* Distance from the top of the page */
+    left: 10px; /* Distance from the left side of the page */
+    margin: 0;
+    padding: 5px 10px;
+    background-color: #f8f9fa; /* Light background for visibility */
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.top-left-link a {
+    color: #004080; /* Dark blue link color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+}
+
+.top-left-link a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+/* Top-right link styling */
+.top-right-link {
+    position: absolute; /* Position relative to the body */
+    top: 10px; /* Distance from the top of the page */
+    right: 10px; /* Distance from the right side of the page */
+    background-color: #004080; /* Dark blue background */
+    padding: 8px 15px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.top-right-link a {
+    color: #ffffff; /* White text for contrast */
+    text-decoration: none; /* Removes underline */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.top-right-link a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+/* Link to Snake Game Styling */
+.link-to-snakegame {
+    text-align: center; /* Center the text and link */
+    margin: 20px auto; /* Adds spacing around the link */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.link-to-snakegame a {
+    color: #004080; /* Dark blue link color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #004080; /* Adds a subtle border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f1f1f1; /* Light gray background */
+    display: inline-block; /* Makes the link button-like */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.link-to-snakegame a:hover {
+    background-color: #004080; /* Dark blue background on hover */
+    color: #ffffff; /* White text on hover */
+    text-decoration: none;
+}
+

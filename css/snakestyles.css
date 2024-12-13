@@ -1,0 +1,54 @@
+/* Black Background */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000; /* Solid black background */
+    color: #FFFFFF; /* White text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Game Title */
+.game-title {
+    font-size: 2.5rem;
+    color: #FFD700; /* Gold */
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #FFD700;
+    margin-bottom: 10px;
+}
+
+/* Score */
+#score {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Canvas */
+canvas {
+    background-color: #000000; /* Black canvas */
+    border: 5px solid #32CD32; /* Visible green border */
+    box-shadow: 0 0 15px #32CD32;
+}
+
+/* Restart Button */
+#restart-btn {
+    display: none;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #32CD32;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #32CD32;
+    cursor: pointer;
+}
+
+#restart-btn:hover {
+    background-color: #FF4500;
+    box-shadow: 0 0 15px #FF4500;
+}
